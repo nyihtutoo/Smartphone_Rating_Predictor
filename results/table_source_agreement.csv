@@ -1,0 +1,9 @@
+,value
+Phones rated in both sources,972
+Pearson r,0.885
+Mean absolute difference,0.045
+Identical ratings (%),73.4
+Independence test z,-1.3
+Independence test p,1.8e-01
+Strict pairs (RAM/storage agree),965
+Strict pairs Pearson r,0.885

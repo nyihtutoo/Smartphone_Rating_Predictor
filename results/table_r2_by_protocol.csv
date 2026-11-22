@@ -1,0 +1,5 @@
+Model,Random 5-fold (Kaggle style),Grouped 5-fold,Leave-one-brand-out,Future-year (≤2024 → 2025–26)
+Dummy (mean),-0.003,-0.002,-0.024,-0.034
+Linear Regression,0.234,0.229,0.135,-0.006
+Random Forest,0.226,0.225,0.066,0.098
+XGBoost (tuned),0.216,0.253,0.109,0.116

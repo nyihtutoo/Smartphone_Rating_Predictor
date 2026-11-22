@@ -1,0 +1,13 @@
+Protocol,Model,QWK,MAE (levels),Accuracy,Two levels off (%)
+Grouped 5-fold,"Random Forest classifier (baseline, ignores order)",0.518,0.208,0.802,1.002
+Grouped 5-fold,Ordinal logistic regression,0.375,0.239,0.766,0.501
+Grouped 5-fold,"XGBoost regression, then cut into levels",0.368,0.264,0.741,0.564
+Grouped 5-fold,Always 'Medium' (majority level),0.0,0.285,0.715,0.0
+Leave-one-brand-out,"Random Forest classifier (baseline, ignores order)",0.319,0.259,0.751,0.939
+Leave-one-brand-out,Ordinal logistic regression,0.193,0.265,0.74,0.501
+Leave-one-brand-out,"XGBoost regression, then cut into levels",0.177,0.279,0.728,0.626
+Leave-one-brand-out,Always 'Medium' (majority level),0.0,0.285,0.715,0.0
+Future-year (≤2024 → 2025–26),"Random Forest classifier (baseline, ignores order)",0.316,0.351,0.664,1.49
+Future-year (≤2024 → 2025–26),Ordinal logistic regression,0.251,0.376,0.641,1.656
+Future-year (≤2024 → 2025–26),"XGBoost regression, then cut into levels",0.219,0.422,0.593,1.49
+Future-year (≤2024 → 2025–26),Always 'Medium' (majority level),0.0,0.401,0.599,0.0

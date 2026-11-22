@@ -1,0 +1,17 @@
+Protocol,Model,Test phones,MAE,RMSE,R2,MAE low,MAE high,R2 low,R2 high
+Random 5-fold (Kaggle style),Dummy (mean),1597,0.204,0.311,-0.003,0.19,0.218,-0.009,-0.002
+Grouped 5-fold,Dummy (mean),1597,0.203,0.31,-0.002,0.189,0.218,-0.008,-0.0
+Leave-one-brand-out,Dummy (mean),1597,0.207,0.314,-0.024,0.193,0.222,-0.034,-0.019
+Future-year (≤2024 → 2025–26),Dummy (mean),604,0.256,0.388,-0.034,0.232,0.283,-0.108,-0.006
+Random 5-fold (Kaggle style),Linear Regression,1597,0.154,0.271,0.234,0.143,0.167,0.158,0.327
+Grouped 5-fold,Linear Regression,1597,0.157,0.272,0.229,0.146,0.17,0.158,0.316
+Leave-one-brand-out,Linear Regression,1597,0.179,0.288,0.135,0.167,0.192,0.081,0.2
+Future-year (≤2024 → 2025–26),Linear Regression,604,0.222,0.383,-0.006,0.197,0.25,-0.12,0.079
+Random 5-fold (Kaggle style),Random Forest,1597,0.145,0.273,0.226,0.133,0.158,0.076,0.362
+Grouped 5-fold,Random Forest,1597,0.155,0.273,0.225,0.143,0.168,0.032,0.382
+Leave-one-brand-out,Random Forest,1597,0.181,0.3,0.066,0.168,0.197,-0.003,0.137
+Future-year (≤2024 → 2025–26),Random Forest,604,0.211,0.363,0.098,0.187,0.24,0.01,0.16
+Random 5-fold (Kaggle style),XGBoost (tuned),1597,0.146,0.275,0.216,0.134,0.159,0.076,0.343
+Grouped 5-fold,XGBoost (tuned),1597,0.153,0.268,0.253,0.141,0.166,0.082,0.373
+Leave-one-brand-out,XGBoost (tuned),1597,0.177,0.293,0.109,0.164,0.191,0.045,0.177
+Future-year (≤2024 → 2025–26),XGBoost (tuned),604,0.205,0.359,0.116,0.182,0.234,0.034,0.179

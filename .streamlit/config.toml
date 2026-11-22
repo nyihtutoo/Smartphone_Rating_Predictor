@@ -1,0 +1,35 @@
+# Look of the Smartphone Rating Predictor (Streamlit theme)
+[theme]
+base = "light"
+primaryColor = "#E8962A"
+backgroundColor = "#F3F5F9"
+secondaryBackgroundColor = "#E8ECF3"
+textColor = "#1B2540"
+borderColor = "#D6DCE7"
+linkColor = "#2F5BD3"
+font = "Figtree:https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap"
+headingFont = "Figtree:https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap"
+baseRadius = "0.6rem"
+buttonRadius = "full"
+showWidgetBorder = true
+showSidebarBorder = false
+greenColor = "#16977F"
+redColor = "#DE5753"
+dataframeHeaderBackgroundColor = "#E8ECF3"
+
+[theme.sidebar]
+backgroundColor = "#1E2747"
+secondaryBackgroundColor = "#2A3560"
+textColor = "#E9EDF7"
+borderColor = "#3A4675"
+primaryColor = "#F2A93B"
+
+[client]
+toolbarMode = "minimal"
+
+# Server settings, so "streamlit run app/app.py" works on AWS EC2
+# (same as --server.address 0.0.0.0 --server.port 8080 --server.headless true)
+[server]
+address = "0.0.0.0"
+port = 8080
+headless = true

@@ -1,0 +1,7 @@
+,,Linear Regression,Random Forest,XGBoost (tuned)
+Grouped 5-fold,Weighted,+0.2,+1.1,+0.7
+Grouped 5-fold,Shrinkage,-0.0,-0.6,-0.4
+Leave-one-brand-out,Weighted,+0.4,-0.1,-0.1
+Leave-one-brand-out,Shrinkage,+1.2,-1.2,+0.7
+Future-year (≤2024 → 2025–26),Weighted,-3.3*,-6.2*,-0.7
+Future-year (≤2024 → 2025–26),Shrinkage,-8.6*,-2.0,+1.2

@@ -1,0 +1,5 @@
+Feature set,Random 5-fold (Kaggle style),Grouped 5-fold,Leave-one-brand-out,Future-year (≤2024 → 2025–26)
+A: progress-stage features,0.148,0.1547,0.1771,0.1957
+B: without AnTuTu,0.1457,0.1534,0.1757,0.198
+C: + Dataset 3 features,0.1458,0.1533,0.1767,0.2053
+"D: + Dataset 3, without AnTuTu",0.1431,0.1519,0.174,0.2083

@@ -1,0 +1,5 @@
+Model,Training time on all phones (s),"Prediction time per 1,000 phones (ms)",Saved model size (KB),Size of the model
+Dummy (mean),0.0,0.02,0.8,1 (the mean)
+Linear Regression,0.02,1.58,8.0,48 coefficients
+Random Forest,1.42,24.69,36983.6,"400 trees, 523,718 nodes"
+XGBoost (tuned),0.18,3.81,867.8,"600 trees, depth ≤ 4"

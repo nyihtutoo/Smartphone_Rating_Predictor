@@ -1,0 +1,17 @@
+Feature set,Protocol,MAE,RMSE,R2
+A: progress-stage features,Random 5-fold (Kaggle style),0.148,0.2723,0.2288
+A: progress-stage features,Grouped 5-fold,0.1547,0.2678,0.2539
+A: progress-stage features,Leave-one-brand-out,0.1771,0.2902,0.1239
+A: progress-stage features,Future-year (≤2024 → 2025–26),0.1957,0.3574,0.1249
+B: without AnTuTu,Random 5-fold (Kaggle style),0.1457,0.273,0.2252
+B: without AnTuTu,Grouped 5-fold,0.1534,0.2699,0.2426
+B: without AnTuTu,Leave-one-brand-out,0.1757,0.2935,0.1043
+B: without AnTuTu,Future-year (≤2024 → 2025–26),0.198,0.3593,0.1155
+C: + Dataset 3 features,Random 5-fold (Kaggle style),0.1458,0.2746,0.2156
+C: + Dataset 3 features,Grouped 5-fold,0.1533,0.268,0.2531
+C: + Dataset 3 features,Leave-one-brand-out,0.1767,0.2927,0.1087
+C: + Dataset 3 features,Future-year (≤2024 → 2025–26),0.2053,0.3591,0.1164
+"D: + Dataset 3, without AnTuTu",Random 5-fold (Kaggle style),0.1431,0.2713,0.2346
+"D: + Dataset 3, without AnTuTu",Grouped 5-fold,0.1519,0.2692,0.2464
+"D: + Dataset 3, without AnTuTu",Leave-one-brand-out,0.174,0.2932,0.1062
+"D: + Dataset 3, without AnTuTu",Future-year (≤2024 → 2025–26),0.2083,0.3607,0.1086

@@ -1,0 +1,19 @@
+Model,Method,Value,MAE reliable (≤2024 CV)
+Linear Regression,weight,30,0.1071
+Linear Regression,weight,100,0.1062
+Linear Regression,weight,300,0.1048
+Linear Regression,shrink,30,0.1062
+Linear Regression,shrink,100,0.1053
+Linear Regression,shrink,300,0.1048
+Random Forest,weight,30,0.1035
+Random Forest,weight,100,0.1036
+Random Forest,weight,300,0.1018
+Random Forest,shrink,30,0.103
+Random Forest,shrink,100,0.1015
+Random Forest,shrink,300,0.0988
+XGBoost (tuned),weight,30,0.0988
+XGBoost (tuned),weight,100,0.0991
+XGBoost (tuned),weight,300,0.0994
+XGBoost (tuned),shrink,30,0.0983
+XGBoost (tuned),shrink,100,0.0975
+XGBoost (tuned),shrink,300,0.0981

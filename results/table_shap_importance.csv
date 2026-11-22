@@ -1,0 +1,17 @@
+,mean |SHAP| (rating points)
+spec_score,0.0717
+brand,0.061
+price_inr,0.0321
+battery_mah,0.0245
+antutu,0.0203
+charging_w,0.0192
+display_in,0.0153
+ram_gb,0.0137
+refresh_hz,0.0123
+front_mp,0.0113
+release_year,0.0112
+storage_gb,0.009
+pixel_ppi,0.0038
+chipset_vendor,0.0033
+rear_mp,0.0028
+is_amoled,0.0019

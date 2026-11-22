@@ -1,0 +1,5 @@
+Join,Step,matched,ambiguous
+Dataset 1 → Dataset 2,exact,1303,0
+Dataset 1 → Dataset 2,key,9,4
+Dataset 1 → Dataset 3,exact,443,3
+Dataset 1 → Dataset 3,key,286,76

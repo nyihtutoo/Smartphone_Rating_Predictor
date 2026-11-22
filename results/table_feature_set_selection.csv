@@ -1,0 +1,5 @@
+Feature set,Predictors,XGBoost,Linear Regression,Random Forest,Average of 3 models,XGBoost settings,Chosen
+A: progress-stage features,13,0.1245,0.1292,0.1254,0.1263,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 600}",
+B: without AnTuTu,12,0.124,0.1291,0.1267,0.1266,"{""learning_rate"": 0.03, ""max_depth"": 6, ""n_estimators"": 300}",
+C: + Dataset 3 features,16,0.1211,0.1289,0.1244,0.1248,"{""learning_rate"": 0.03, ""max_depth"": 4, ""n_estimators"": 600}",yes
+"D: + Dataset 3, without AnTuTu",15,0.1206,0.1289,0.1258,0.1251,"{""learning_rate"": 0.03, ""max_depth"": 6, ""n_estimators"": 300}",

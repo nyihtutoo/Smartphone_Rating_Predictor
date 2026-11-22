@@ -1,0 +1,6 @@
+,Phones,Rating SD,MAE Linear Regression,MAE Random Forest,MAE XGBoost (tuned)
+Fewer than 50,41,0.362,0.237,0.247,0.222
+50 to 500,120,0.408,0.189,0.186,0.169
+"500 to 5,000",329,0.256,0.121,0.131,0.123
+"More than 5,000",482,0.147,0.095,0.092,0.09
+No review count,625,0.388,0.212,0.206,0.211
